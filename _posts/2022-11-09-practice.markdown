@@ -8,7 +8,7 @@ tags: [jekyll, example post]
 img: ":post_pic1.jpg"
 comments_disable: true
 
-date: 2021-08-10 11:32:53 +0900
+date: 2022-11-09 11:32:53 +0900
 
 ---
 
