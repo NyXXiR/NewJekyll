@@ -118,65 +118,6 @@
   box-shadow: revert;
 }
 
-/* code */
-.markdown-style pre {
-  background-color: var(--markdown-styles-code-background-color);
-  font-size: 1.4rem;
-}
-
-/* code */
-.markdown-style .highlight {
-  background-color: var(--markdown-styles-code-background-color);
-  color: var(--markdown-styles-code-text-color);
-  font-size: 1.4rem;
-}
-
-/* code */
-.markdown-style pre > code {
-  background-color: var(--markdown-styles-code-background-color);
-  color: var(--markdown-styles-code-text-color);
-}
-
-/* Quoted text */
-.markdown-style code {
-  background-color: var(--markdown-styles-quote-background-color);
-  color: var(--markdown-styles-quote-text-color);
-  overflow-wrap: break-word;
-}
-
-/* for Videos */
-.video-wrapper {
-  width: 80%;
-  max-width: 560px;
-}
-
-.video-centered {
-  margin: 0 auto;
-}
-
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
-}
-
-.video-container iframe,
-.video-container object,
-.video-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-@media (max-width: 500px) {
-  .video-wrapper {
-    width: 100%;
-  }
-}
 // applied base16.dark highlighter.
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
@@ -259,3 +200,63 @@
 .highlight .ss {
   color: #90a959;
 }
+// /* code */
+// .markdown-style pre {
+//   background-color: var(--markdown-styles-code-background-color);
+//   font-size: 1.4rem;
+// }
+
+// /* code */
+// .markdown-style .highlight {
+//   background-color: var(--markdown-styles-code-background-color);
+//   color: var(--markdown-styles-code-text-color);
+//   font-size: 1.4rem;
+// }
+
+// /* code */
+// .markdown-style pre > code {
+//   background-color: var(--markdown-styles-code-background-color);
+//   color: var(--markdown-styles-code-text-color);
+// }
+
+// /* Quoted text */
+// .markdown-style code {
+//   background-color: var(--markdown-styles-quote-background-color);
+//   color: var(--markdown-styles-quote-text-color);
+//   overflow-wrap: break-word;
+// }
+
+/* for Videos */
+.video-wrapper {
+  width: 80%;
+  max-width: 560px;
+}
+
+.video-centered {
+  margin: 0 auto;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 500px) {
+  .video-wrapper {
+    width: 100%;
+  }
+}
+
